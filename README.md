@@ -1,7 +1,32 @@
 # About
 
-[![Github Pages](https://badgen.net/github/status/su-zm/su-zm.github.io/main)](https://github.com/su-zm/su-zm.github.io/tree/main)
-
 > Minimal landing page for [scriptureunion.org.zm](https://www.scriptureunion.org.zm/)
 
 ----
+
+
+## Usage
+
+### Install the dependencies
+
+```bash
+yarn
+```
+
+### Start the app in development mode
+
+```bash
+yarn start
+```
+
+### Build the app for production
+
+```bash
+yarn build
+```
+
+### Clean up (remove `.cache` and `dist` directories)
+
+```bash
+yarn clean
+```

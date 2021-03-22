@@ -1,8 +1,10 @@
-
 .cache/
 coverage/
 node_modules/
 *.log
+logs/
+conf/
+dist/
 
 # OS generated files
 .DS_Store

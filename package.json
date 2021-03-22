@@ -5,11 +5,10 @@
   "main": "index.js",
   "author": "@engineervix",
   "license": "MIT",
-  "homepage": "https://github.com/su-zm/su-zm.github.io#readme",
   "scripts": {
-    "clean": "rm -rf dist && rm -rf docs && rm -rf .cache",
+    "clean": "rm -rf dist && rm -rf .cache",
     "start": "parcel src/index.html --open",
-    "build": "parcel build src/index.html --out-dir ./docs && cp -v src/CNAME docs/"
+    "build": "parcel build src/index.html --out-dir ./dist"
   },
   "repository": {
     "type": "git",
